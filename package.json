@@ -1,0 +1,17 @@
+{
+  "name": "redis-labs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "connect": "node --env-file=.env connect.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "redis": "^5.10.0"
+  }
+}
